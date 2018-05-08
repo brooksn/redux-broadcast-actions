@@ -1,0 +1,26 @@
+{
+  "name": "redux-broadcast-actions",
+  "version": "1.0.0",
+  "description": "Redux middleware to dispatch certain actions in all open windows",
+  "author": "Brooks Newberry",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brooksn/redux-broadcast-actions.git"
+  },
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc src/index.ts -d --outDir dist "
+  },
+  "files": ["README.md", "dist/index.js", "dist/index.d.ts"],
+  "keywords": ["redux", "middleware", "redux-middleware"],
+  "devDependencies": {
+    "redux": "^4.0.0",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  },
+  "peerDependencies": {
+    "redux": "1 - 4"
+  }
+}
